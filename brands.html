@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="nav-logo">MotorDoktor.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Naslovna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">O nama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./brands.html" class="nav-link">Brendovi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./actions.html" class="nav-link">Akcije</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item social">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f" ></i>&nbsp Facebook</a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i>&nbsp Instagram</a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i>&nbsp Twitter</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+        <div class="slider">
+            <div class="center-content">
+                <img src="./images/sachs.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/trw.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/shell.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/hengst_banner.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/mann_banner.jpg" />
+            </div>
+        </div>
+          
+        
+        <main>
+            <h1 class="page-heading">Brendovi</h1>
+            <section class="brands-section">
+                    <div>
+                        <div id="list-group">
+                                <a class="category-link" data-category="svi" href="#">Svi</a>
+                                <a class="category-link" data-category="akumulatori" href="#">Akumulatori</a>
+                                <a class="category-link" data-category="amortizeri" href="#">Amortizeri i opruge</a>                  
+                                <a class="category-link" data-category="brisaci" href="#">Brisači</a>                                   
+                                <a class="category-link" data-category="trap" href="#">Delovi trapa</a>      
+                                <a class="category-link" data-category="delovi_motora" href="#">Delovi motora</a>                 
+                                <a class="category-link" data-category="elektrika" href="#">Elektronika i elektrika</a>                                   
+                                <a class="category-link" data-category="filteri" href="#">Filteri</a>                            
+                                <a class="category-link" data-category="gume" href="#">Gume</a>                                                                          
+                                <a class="category-link" data-category="kocioni_sistem" href="#">Kočioni sistem</a>
+                                <a class="category-link" data-category="kvacila" href="#">Kvačila</a>
+                                <a class="category-link" data-category="ogibljenje" href="#">Ogibljenje</a>
+                                <a class="category-link" data-category="prenos" href="#">Prenos</a>
+                                <a class="category-link" data-category="svecice_grejaci" href="#">Svećice i grejači</a>
+                                <a class="category-link" data-category="ulja_i_maziva" href="#">Ulja i maziva</a>
+                                <a class="category-link" data-category="vesanje" href="#">Vešanje</a>
+                                <a class="category-link" data-category="zupcenje" href="#">Zupčenje</a>
+                        </div>
+                    </div>
+                    
+                        <div id="brands"></div>
+                                                                             
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            <div>
+                <a href="./index.html" class="footer-logo">MotorDoktor.</a>
+            </div>
+            <div>
+                <p>Copyright © 2021 Buy Auto Parts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/mobile_menu.js"></script>
+    <script src="js/brands.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 4000,
+                pager: false,
+                controls: false
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<brendovi>
+    <brend data-category="kocioni_sistem">
+       <link>https://www.ate-brakes.com/</link>
+        <slika>
+            <img url="./../images/ate.png" />
+        </slika>
+        <naziv>ATE</naziv>
+    </brend>
+    <brend data-category="akumulatori">
+       <link>https://www.boschaftermarket.com/rs/sr/</link>
+        <slika>
+            <img url="./../images/bosch.png" />
+        </slika>
+        <naziv>BOSCH</naziv>
+    </brend>
+    <brend data-category="brisaci,elektrika,svecice_grejaci">
+       <link>https://www.densoautoparts.com/</link>
+        <slika>
+            <img url="./../images/denso.png" />
+        </slika>
+        <naziv>Denso</naziv>
+    </brend>
+    <brend data-category="delovi_motora">
+       <link>https://www.elring.com/</link>
+        <slika>
+            <img url="./../images/elring.png" />
+        </slika>
+        <naziv>Elring</naziv>
+    </brend>
+    <brend data-category="prenos">
+       <link></link>
+        <slika>
+            <img url="./../images/fag.png" />
+        </slika>
+        <naziv>FAG</naziv>
+    </brend>
+    <brend data-category="ogibljenje">
+       <link>https://www.febi.com/sr/</link>
+        <slika>
+            <img url="./../images/bilstein.png" />
+        </slika>
+        <naziv>Febi Bilstein</naziv>
+    </brend>
+    <brend data-category="filteri">
+       <link>https://filtron.eu/en</link>
+        <slika>
+            <img url="./../images/filtron.png" />
+        </slika>
+        <naziv>Filtron</naziv>
+    </brend>
+    <brend data-category="zupcenje">
+       <link>https://www.gates.com/gb/en.html</link>
+        <slika>
+            <img url="./../images/gates.png" />
+        </slika>
+        <naziv>Gates</naziv>
+    </brend>
+    <brend data-category="kvacila">
+       <link><!--fali website za luk--></link>
+        <slika>
+            <img url="./../images/luk.png" />
+        </slika>
+        <naziv>LUK</naziv>
+    </brend>
+    <brend data-category="trap">
+       <link>https://aftermarket.zf.com/go/en/lemfoerder/home/</link>
+        <slika>
+            <img url="./../images/lemforder.png" />
+        </slika>
+        <naziv>Lemforder</naziv>
+    </brend>
+    <brend data-category="delovi_motora,filteri">
+       <link>https://www.mahle.com/en/</link>
+        <slika>
+            <img url="./../images/mahle.png" />
+        </slika>
+        <naziv>Mahle</naziv>
+    </brend>
+    <brend data-category="prenos">
+       <link>https://www.metelligroup.it/</link>
+        <slika>
+            <img url="./../images/meteli.png" />
+        </slika>
+        <naziv>Metelli</naziv>
+    </brend>
+    <brend data-category="ulja_i_maziva">
+       <link>https://www.motul.com/rs/sr</link>
+        <slika>
+            <img url="./../images/motul.png" />
+        </slika>
+        <naziv>Motul</naziv>
+    </brend>
+    <brend data-category="elektrika">
+       <link>https://www.ms-motorservice.com/en/</link>
+        <slika>
+            <img url="./../images/pierburg.png" />
+        </slika>
+        <naziv>Pierburg</naziv>
+    </brend>
+    <brend data-category="filteri">
+       <link>https://www.purflux.com/en/index.html</link>
+        <slika>
+            <img url="./../images/purflux.png" />
+        </slika>
+        <naziv>Purflux</naziv>
+    </brend>
+    <brend data-category="kocioni_sistem">
+       <link>https://textar.com/</link>
+        <slika>
+            <img url="./../images/textar.png" />
+       </slika>
+       <naziv>Textar</naziv>
+    </brend>
+    <brend data-category="kvacila,ogibljenje">
+       <link>https://aftermarket.zf.com/go/en/sachs/home/</link>
+        <slika>
+            <img url="./../images/sachs.png" />
+       </slika>
+       <naziv>Sachs</naziv>
+    </brend>
+    <brend data-category="delovi_motora,zupcenje">
+       <link>https://vehicleaftermarket.skf.com/int/en</link>
+        <slika>
+            <img url="./../images/skf.png" />
+       </slika>
+       <naziv>SKF</naziv>
+    </brend>
+    <brend data-category="kocioni_sistem,trap">
+        <link>https://www.trwaftermarket.com/ap/</link>
+        <slika>
+            <img url="./../images/trw.png" />
+        </slika>
+        <naziv>TRW</naziv>
+    </brend>
+    
+</brendovi>
+
+
+

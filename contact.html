@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="nav-logo">MotorDoktor.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Naslovna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">O nama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./brands.html" class="nav-link">Brendovi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./actions.html" class="nav-link">Akcije</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item social">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f" ></i>&nbsp Facebook</a>
+                        <a href="#"><i class="fab fa-instagram"></i>&nbsp Instagram</a>
+                        <a href="#"><i class="fab fa-twitter"></i>&nbsp Twitter</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div class="slider">
+            <div class="center-content">
+                <img src="./images/sachs.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/trw.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/shell.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/hengst_banner.jpg" />
+            </div>
+            <div class="center-content">
+                <img src="./images/mann_banner.jpg" />
+            </div>
+        </div>
+        <main>
+            <h1 class="page-heading">Kontakt</h1>
+            <section class="contact-section">          
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.417859275721!2d10.884551921801366!3d45.287702135786155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d8e992d3859b%3A0x79d15864e029b973!2zVmlhIGRlbGwnSW5kdXN0cmlhLCA0LCAzNzA2MCBOb2dhcm9sZSBSb2NjYSBWUiwg0JjRgtCw0LvQuNGY0LA!5e0!3m2!1ssr!2srs!4v1638959711606!5m2!1ssr!2srs"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>          
+                    </div>
+                    <div class="contact-information">
+                        <h2>Kontaktirajte nas</h2>
+                        <p>Adresa: Via Europa, 26</p>
+                        <p>Grad: Porto Mantovano (MN)</p>
+                        <p>Broj pošte: 46047</p>
+                        <p>Zemlja: Italia</p>
+                        <p>Telefon: +91238901238</p>
+                        <p>Email: <a href="#">kontakt@example.com</a></p>
+                    </div>
+                
+            </section>
+            
+        </main>
+        
+        
+    </div>
+    <div class="social-links-desctop">
+        <a href="#" id="face"><i class="fab fa-facebook-f" ></i></a>
+        <a href="#" id="insta"><i class="fab fa-instagram"></i></a>
+        <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    
+
+    <footer>
+        <div class="footer-wrap">
+            <div>
+                <a href="./index.html" class="footer-logo">MotorDoktor.</a>
+            </div>
+            <div>
+                <p>Copyright © 2021 Buy Auto Parts. All rights reserved.</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/mobile_menu.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+                pager: false,
+                controls: false
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
